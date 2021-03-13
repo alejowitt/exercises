@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Mathematics\" />
+    <Folder Include="PorjectEuler\" />
+    <Folder Include="Practice\" />
+    <Folder Include="CrackingCI\" />
+    <Folder Include="Iterations\" />
+    <Folder Include="Algorithm\" />
+    <Folder Include="Arrays\" />
+    <Folder Include="TimeComplexity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Randomizer.NET" Version="2.2.26" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="TestFiles\Frequency\input05.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\input05 %28copy%29.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
