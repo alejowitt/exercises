@@ -21,6 +21,7 @@
     <Folder Include="Algorithm\" />
     <Folder Include="Arrays\" />
     <Folder Include="TimeComplexity\" />
+    <Folder Include="Codility\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HackerRank\HackerRank.csproj" />

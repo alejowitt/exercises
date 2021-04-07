@@ -14,6 +14,7 @@
     <Folder Include="Algorithm\" />
     <Folder Include="Arrays\" />
     <Folder Include="TimeComplexity\" />
+    <Folder Include="Codility\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Randomizer.NET" Version="2.2.26" />
