@@ -44,5 +44,12 @@ namespace HackerRankTests.Codility
             var test = new CakeFactoryChallenge();
             test.Run();
         }
+
+        [TestMethod]
+        public void PrefixSet()
+        {
+            var test = new PrefixSet();
+            test.Run();
+        }
     }
 }

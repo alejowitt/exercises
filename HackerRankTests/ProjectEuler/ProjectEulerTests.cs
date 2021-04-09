@@ -18,5 +18,11 @@ namespace HackerRankTests.ProjectEuler
             test.Run();
         }
 
+        [TestMethod]
+        public void Problem3_Factors()
+        {
+            var test = new Problem3();
+            test.Run();
+        }
     }
 }
